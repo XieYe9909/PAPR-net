@@ -9,7 +9,7 @@ For the networks training process, it can be divided into two steps.
 
 **Step 1:** The parameters in encoder and decoder are initialized randomly. There is only BER performance in the loss fuction. Moreover, There is no channel model and AWGN model in the PAPR net. The output of the encoder is exactly the input of the decoder.
 
-**Step 2:** Use the parameters trained in Step 1 as the initial values. The loss function consists of the BER performance as well as the PAPR performance. The proportion of PAPR performance in the loss function is determined by the hyperparameter \lambda
+**Step 2:** Use the parameters trained in Step 1 as the initial values. The loss function consists of the BER performance as well as the PAPR performance. The proportion of PAPR performance in the loss function is determined by the hyperparameter \lambda. Besides, there is a channel layer, an AWGN layer and a channel equalization layer between the encoder and the decoder.
 
 ## Main Functions
 The main usage of each file or folder is listed below: 
