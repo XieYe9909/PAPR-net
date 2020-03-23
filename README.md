@@ -20,3 +20,11 @@ The main usage of each file or folder is listed below:
 **ber_plot.py:** Drawing the BER vs. snr curve for different systems of different PAPR nets.
 
 **ccdf_plot.py:** Drawing the CCDF curve for different systems of different PAPR nets.
+
+**initialize/:** Saving some important parameters used in the OFDM system, such as the channel response model, the QAM map, etc.
+
+**pre_train/:** Saving the training model after training step 1 (pre_train), which are used in training step 2.
+
+**training/:** Saving the training model after training step 2.
+
+**results/:** Saving the CCDF and BER results generated in ber_plot.py and ccdf_plot.py.
