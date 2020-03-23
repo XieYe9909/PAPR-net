@@ -1,6 +1,10 @@
 # PAPR-net
 Deep learning for PAPR reduction in OFDM system.
 
+## Operating Environment
+Python 3.7 + Keras based on Tensorflowbackend.
+
+## Main Functions
 The main usage of each file or folder is listed below: 
 
 **ofdm.py:** Two main classes: OFDM transmitter and Receiver, used for transmitting and receiving bit streams. Some functions: sunch qam mapping, hermitian transformation and oversampling.
