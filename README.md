@@ -4,6 +4,15 @@ Deep learning for PAPR reduction in OFDM system.
 ## Operating Environment
 Python 3.7 + Keras based on Tensorflowbackend.
 
+## Two Training Steps
+For the networks training process, it can be divided into two steps.
+
+**Step 1:** The parameters in encoder and decoder are initialized randomly. There is only BER performance in the loss fuction. Moreover, There is no channel model and AWGN model in the PAPR net. The output of the encoder is exactly the input of the decoder.
+
+**Step 2:** Use the parameters trained in Step 1 as the initial values. The loss function is as below:
+$$x_2$$
+
+
 ## Main Functions
 The main usage of each file or folder is listed below: 
 
